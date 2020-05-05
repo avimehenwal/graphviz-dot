@@ -1,14 +1,18 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <script src="https://unpkg.com/@hpcc-js/wasm/dist/index.min.js" type="javascript/worker"></script>
+    <GraphvizViewer />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GraphvizViewer from './components/GraphvizViewer.vue';
 
 export default {
-  name: 'App',
+  name: 'home',
   components: {
-    HelloWorld
-  }
-}
+    GraphvizViewer,
+  },
+
+};
 </script>
