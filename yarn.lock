@@ -828,7 +828,7 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@hpcc-js/wasm@^0.3.11":
+"@hpcc-js/wasm@^0.3.11", "@hpcc-js/wasm@^0.3.13":
   version "0.3.13"
   resolved "https://registry.yarnpkg.com/@hpcc-js/wasm/-/wasm-0.3.13.tgz#5a5666db41e47ef5495006ad09f91e35f1fde29a"
   integrity sha512-cnhBOjxa2RCb/0phDmjy9u1+GEMyDKFtf1uXbtYFlm9XcyLZEDKFOzYjeb9iXM4mF0dDhS0P3iRmy4U9orIasA==
