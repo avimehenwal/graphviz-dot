@@ -828,7 +828,7 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@hpcc-js/wasm@^0.3.8":
+"@hpcc-js/wasm@0.3.13":
   version "0.3.13"
   resolved "https://registry.yarnpkg.com/@hpcc-js/wasm/-/wasm-0.3.13.tgz#5a5666db41e47ef5495006ad09f91e35f1fde29a"
   integrity sha512-cnhBOjxa2RCb/0phDmjy9u1+GEMyDKFtf1uXbtYFlm9XcyLZEDKFOzYjeb9iXM4mF0dDhS0P3iRmy4U9orIasA==
@@ -2392,11 +2392,6 @@ core-js-compat@^3.6.2, core-js-compat@^3.6.4:
     browserslist "^4.8.5"
     semver "7.0.0"
 
-core-js@3.6.4:
-  version "3.6.4"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.4.tgz#440a83536b458114b9cb2ac1580ba377dc470647"
-  integrity sha512-4paDGScNgZP2IXXilaffL9X7968RuvwlkK3xWtZRVqgd8SYNiVKRJvkFd1aqqEuPfN7E68ZHEp9hDj6lHj4Hyw==
-
 core-js@^3.6.4:
   version "3.6.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
@@ -2764,12 +2759,12 @@ d3-geo@1:
   dependencies:
     d3-array "1"
 
-d3-graphviz@3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/d3-graphviz/-/d3-graphviz-3.0.4.tgz#a5ac9eab9ba6a4784eb75b1a6cfdc33c32c4fa92"
-  integrity sha512-PDT+W/k1OAygY5kZiQTQyHnsEHMCRRG0Mh3mZ1o8JVZeD/ekIOCrXeIHsx+UZOSC/2nr6j6+5Ut4OL47Y7TzuA==
+d3-graphviz@^3.0.5:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/d3-graphviz/-/d3-graphviz-3.0.6.tgz#d4647f02f4bcd42ab2b4b4fe946c4ca01fccf4f1"
+  integrity sha512-IwH6HpkxBwucpC1fKib9KRpSI4vBSpav0l0kyzDq/RDPjNfsmSxTSfPU4qM1fYLAa/V5M49+K+twb06J2QodJw==
   dependencies:
-    "@hpcc-js/wasm" "^0.3.8"
+    "@hpcc-js/wasm" "0.3.13"
     d3-dispatch "^1.0.6"
     d3-format "^1.4.3"
     d3-interpolate "^1.4.0"
@@ -2899,10 +2894,10 @@ d3-zoom@1.7.3:
     d3-selection "1"
     d3-transition "1"
 
-d3@`5.15.0`:
-  version "5.15.0"
-  resolved "https://registry.yarnpkg.com/d3/-/d3-5.15.0.tgz#ffd44958e6a3cb8a59a84429c45429b8bca5677a"
-  integrity sha512-C+E80SL2nLLtmykZ6klwYj5rPqB5nlfN5LdWEAVdWPppqTD8taoJi2PxLZjPeYT8FFRR2yucXq+kBlOnnvZeLg==
+d3@^5.16.0:
+  version "5.16.0"
+  resolved "https://registry.yarnpkg.com/d3/-/d3-5.16.0.tgz#9c5e8d3b56403c79d4ed42fbd62f6113f199c877"
+  integrity sha512-4PL5hHaHwX4m7Zr1UapXW23apo6pexCgdetdJ5kTmADpG/7T9Gkxw0M0tf/pjoB63ezCCm0u5UaFYy2aMt0Mcw==
   dependencies:
     d3-array "1"
     d3-axis "1"
@@ -8207,7 +8202,7 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue@2.6.11:
+vue@^2.6.11:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
   integrity sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
