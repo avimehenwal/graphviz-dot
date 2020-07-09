@@ -1,5 +1,7 @@
 # dot
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9f725c02-2d48-4255-a01f-f368459d9983/deploy-status)](https://app.netlify.com/sites/gifted-ramanujan-14d635/deploys)
+
 :rocket: [Click here to Live website][url]
 
 ![dot-graphviz demo](demo.png)
