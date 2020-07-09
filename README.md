@@ -1,5 +1,7 @@
 # dot
 
+![dot-graphviz demo](demo.png)
+
 ## Project setup
 ```
 yarn install

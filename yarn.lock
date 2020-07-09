@@ -828,7 +828,7 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@hpcc-js/wasm@0.3.13", "@hpcc-js/wasm@^0.3.11":
+"@hpcc-js/wasm@0.3.13":
   version "0.3.13"
   resolved "https://registry.yarnpkg.com/@hpcc-js/wasm/-/wasm-0.3.13.tgz#5a5666db41e47ef5495006ad09f91e35f1fde29a"
   integrity sha512-cnhBOjxa2RCb/0phDmjy9u1+GEMyDKFtf1uXbtYFlm9XcyLZEDKFOzYjeb9iXM4mF0dDhS0P3iRmy4U9orIasA==
@@ -2760,11 +2760,11 @@ d3-geo@1:
     d3-array "1"
 
 d3-graphviz@^3.0.5:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/d3-graphviz/-/d3-graphviz-3.0.5.tgz#6263c3b4dc4b1e2b072993085a047b727003aec9"
-  integrity sha512-41A8eNx2gJfaooxMQzNqEbYZ71rLqfhYpO8+4ktuDEPoKYHLHDhHN9ycjjNvMzSz7kC3Px8rAH+EYb5D9mXQTA==
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/d3-graphviz/-/d3-graphviz-3.0.6.tgz#d4647f02f4bcd42ab2b4b4fe946c4ca01fccf4f1"
+  integrity sha512-IwH6HpkxBwucpC1fKib9KRpSI4vBSpav0l0kyzDq/RDPjNfsmSxTSfPU4qM1fYLAa/V5M49+K+twb06J2QodJw==
   dependencies:
-    "@hpcc-js/wasm" "^0.3.11"
+    "@hpcc-js/wasm" "0.3.13"
     d3-dispatch "^1.0.6"
     d3-format "^1.4.3"
     d3-interpolate "^1.4.0"
@@ -8369,9 +8369,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 which-module@^2.0.0:
   version "2.0.0"
