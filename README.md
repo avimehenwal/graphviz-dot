@@ -32,6 +32,10 @@ yarn lint
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+## :beetle: Limitations
+
+Doesnt work with multiple components calls on same page. As component uses `id` for element selection
+and then updation
 
 #### Get in touch with me
 
