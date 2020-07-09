@@ -1,5 +1,6 @@
 <template>
   <div>
+    <script src="https://unpkg.com/@hpcc-js/wasm/dist/index.min.js" type="javascript/worker" />
     <h3>from Component</h3>
     <div id="graph"></div>
   </div>

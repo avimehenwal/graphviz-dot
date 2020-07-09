@@ -1,6 +1,5 @@
 <template>
   <div>
-    <script src="https://unpkg.com/@hpcc-js/wasm/dist/index.min.js" type="javascript/worker"></script>
     <DotLanguage
       code="digraph {
         node [fontsize=24, colorscheme=set312, style=filled]
@@ -8,8 +7,7 @@
         b [fillcolor=2]
         c [fillcolor=3]
         a -> b -> c
-      }
-      "
+      }"
     />
   </div>
 </template>
