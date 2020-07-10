@@ -72,9 +72,16 @@ export default {
   content: {
     markdown: {
       remarkPlugins: [
+        'remark-html-katex',
+        'remark-container',
         'remark-graphviz',
         'remark-mermaid',
+        'remark-abbr',
+        'remark-math',
         'remark-emoji'
+      ],
+      rehypePlugins: [
+        'rehype-katex'
       ]
     }
   },

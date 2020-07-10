@@ -16,7 +16,7 @@
 
       <h1>Blog Posts</h1>
       <ol>
-        <li v-for="article in articles" :key="article">
+        <li v-for="article in articles" :key="article.title">
           <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
             <h3>{{ article.title }}</h3>
           </NuxtLink>

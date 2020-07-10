@@ -24,8 +24,13 @@
     "d3-graphviz": "^3.1.0",
     "mermaid.cli": "^0.5.1",
     "nuxt": "^2.13.0",
+    "rehype-katex": "^3.0.0",
+    "remark-abbr": "^1.4.0",
+    "remark-container": "^0.1.2",
     "remark-emoji": "^2.1.0",
     "remark-graphviz": "^0.2.2",
+    "remark-html-katex": "^2.0.1",
+    "remark-math": "^2.0.1",
     "remark-mermaid": "^0.2.0"
   },
   "devDependencies": {
