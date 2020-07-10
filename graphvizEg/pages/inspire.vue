@@ -1,5 +1,9 @@
 <template>
   <v-layout>
+    <!-- <nuxt-content :document="chart" /> -->
+    <!-- {{ chart }} -->
+    <v-img src="/svg/graph1.svg" />
+
     <v-flex class="text-center">
       <img
         src="/v.png"
@@ -17,3 +21,12 @@
     </v-flex>
   </v-layout>
 </template>
+
+<script>
+export default {
+  // async asyncData ({ $content }) {
+  //   const chart = await $content('graph1.dot').fetch()
+  //   return { chart }
+  // }
+}
+</script>

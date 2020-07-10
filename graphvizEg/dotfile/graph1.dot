@@ -1,0 +1,13 @@
+digraph D {
+  label = "Sample graph"
+  node [style=filled colorscheme=accent8]
+
+  A [shape=diamond, fillcolor=1]
+  B [shape=box, fillcolor=2]
+  C [shape=circle, fillcolor=3]
+  D [fillcolor=4]
+
+  A -> B [style=dashed, color=grey]
+  A -> C [color="black:invis:black"]
+  A -> D [penwidth=5, arrowhead=none]
+}
