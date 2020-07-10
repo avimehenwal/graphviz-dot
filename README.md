@@ -44,6 +44,8 @@ and then updation
 ```
 npx create-nuxt-app graphvizEg
 yarn add d3 d3-graphviz @hpcc-js/wasm
+
+http://localhost:3000/_content
 ```
 
 #### Get in touch with me

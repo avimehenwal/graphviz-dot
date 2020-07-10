@@ -13,6 +13,18 @@
         <logo />
         <vuetify-logo />
       </div>
+
+      <h1>Blog Posts</h1>
+      <ol>
+        <li v-for="article in articles" :key="article">
+          <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+            <h3>{{ article.title }}</h3>
+          </NuxtLink>
+          <p>{{ article.description }}</p>
+          {{ article }}
+        </li>
+      </ol>
+
       <v-card>
         <v-card-title class="headline">
           Welcome to the Vuetify + Nuxt.js template
@@ -92,6 +104,16 @@ export default {
   components: {
     Logo,
     VuetifyLogo
+  },
+  async asyncData({ $content, params }) {
+    const articles = await $content(params.slug)
+      .only(['title', 'description', 'img', 'slug', 'author'])
+      .sortBy('createdAt', 'asc')
+      .fetch()
+
+    return {
+      articles
+    }
   }
 }
 </script>
