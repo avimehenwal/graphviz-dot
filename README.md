@@ -43,6 +43,7 @@ and then updation
 
 ```
 npx create-nuxt-app graphvizEg
+yarn add d3 d3-graphviz @hpcc-js/wasm
 ```
 
 #### Get in touch with me

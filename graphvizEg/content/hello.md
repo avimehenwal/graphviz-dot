@@ -15,4 +15,19 @@ Learn how to fetch your content with `$content`: https://content.nuxtjs.org/fetc
 
 ## Displaying content
 
+:dog: :+1:
+
 Learn how to display your Markdown content with the `<nuxt-content>` component directly in your template: https://content.nuxtjs.org/displaying.
+
+```mermaid
+graph LR
+    Start --> Stop
+```
+
+```dot
+digraph graphname {
+  a -> b;
+  b -> c;
+  a -> c;
+}
+```
