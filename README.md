@@ -39,6 +39,12 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 Doesnt work with multiple components calls on same page. As component uses `id` for element selection
 and then updation
 
+## :dolphin: Notes
+
+```
+npx create-nuxt-app graphvizEg
+```
+
 #### Get in touch with me
 
 > I am looking for Jobs ... :sunglasses:
